@@ -19,6 +19,6 @@ class EntrustFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'entrust';
+        return '\Zizaco\Entrust\Entrust';
     }
 }
